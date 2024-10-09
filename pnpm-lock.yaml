@@ -14,6 +14,9 @@ importers:
       nuxt-app:
         specifier: 'file:'
         version: file:(@parcel/watcher@2.4.1)(@types/node@22.7.5)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.24.0)(terser@5.34.1)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))
+      nuxt-svgo:
+        specifier: ^4.0.6
+        version: 4.0.6(magicast@0.3.5)(rollup@4.24.0)(vue@3.5.11)
       vue:
         specifier: latest
         version: 3.5.11
@@ -2263,6 +2266,10 @@ packages:
     resolution: {integrity: sha512-vqiC06CuhBTUdZH+RYl8sFrL096vA45Ok5ISO6sE/Mr1jRbGH4Csnhi8f3wKVl7x8mO4Au7Ir9D3Oyv1VYMFJw==}
     engines: {node: '>=12'}
 
+  mini-svg-data-uri@1.4.4:
+    resolution: {integrity: sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==}
+    hasBin: true
+
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
 
@@ -2413,6 +2420,21 @@ packages:
 
   'nuxt-app@file:':
     resolution: {directory: '', type: directory}
+
+  nuxt-svgo@4.0.6:
+    resolution: {integrity: sha512-23piTK/Dv+6gqZBLf3TyZLc03CmZj9M191D/qol6dN/tc/pikFz1FOOBTe4LqXoRiE2ZbRB7/VypE+Y0kuwH1A==}
+    peerDependencies:
+      svgo-loader: ^4.0.0
+      vue: '>=3.2.13'
+      vue-loader: ^17.0.0
+      vue-svg-loader: 0.17.0-beta.2
+    peerDependenciesMeta:
+      svgo-loader:
+        optional: true
+      vue-loader:
+        optional: true
+      vue-svg-loader:
+        optional: true
 
   nuxt@3.13.2:
     resolution: {integrity: sha512-Bjc2qRsipfBhjXsBEJCN+EUAukhdgFv/KoIR5HFB2hZOYRSqXBod3oWQs78k3ja1nlIhAEdBG533898KJxUtJw==}
@@ -3058,6 +3080,11 @@ packages:
 
   svg-tags@1.0.0:
     resolution: {integrity: sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA==}
+
+  svgo@3.0.2:
+    resolution: {integrity: sha512-Z706C1U2pb1+JGP48fbazf3KxHrWOsLme6Rv7imFBn5EnuanDW1GPaA/P1/dvObE670JDePC3mnj0k0B7P0jjQ==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
 
   svgo@3.3.2:
     resolution: {integrity: sha512-OoohrmuUlBs8B8o6MB2Aevn+pRIH9zDALSR+6hhqVfa6fRwG/Qw9VUMSMW9VNg2CFc/MTIfabtdOVl9ODIJjpw==}
@@ -5834,6 +5861,8 @@ snapshots:
 
   mimic-fn@4.0.0: {}
 
+  mini-svg-data-uri@1.4.4: {}
+
   minimatch@3.1.2:
     dependencies:
       brace-expansion: 1.1.11
@@ -6081,6 +6110,18 @@ snapshots:
       - vue-tsc
       - webpack-sources
       - xml2js
+
+  nuxt-svgo@4.0.6(magicast@0.3.5)(rollup@4.24.0)(vue@3.5.11):
+    dependencies:
+      '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.24.0)
+      mini-svg-data-uri: 1.4.4
+      svgo: 3.0.2
+      vue: 3.5.11
+    transitivePeerDependencies:
+      - magicast
+      - rollup
+      - supports-color
+      - webpack-sources
 
   nuxt@3.13.2(@parcel/watcher@2.4.1)(@types/node@22.7.5)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.24.0)(terser@5.34.1)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1)):
     dependencies:
@@ -6831,6 +6872,15 @@ snapshots:
   supports-preserve-symlinks-flag@1.0.0: {}
 
   svg-tags@1.0.0: {}
+
+  svgo@3.0.2:
+    dependencies:
+      '@trysound/sax': 0.2.0
+      commander: 7.2.0
+      css-select: 5.1.0
+      css-tree: 2.3.1
+      csso: 5.0.5
+      picocolors: 1.1.0
 
   svgo@3.3.2:
     dependencies:
