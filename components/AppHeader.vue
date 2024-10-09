@@ -32,7 +32,7 @@
 </template>
 <script setup lang="ts">
 // Vue components in the components/ directory are auto-imported and can be used directly in your templates.
-import Logo from '~/public/icon-green.svg'
+import Logo from '~/assets/svg/icon-green.svg'
 </script>
 <style>
 a.nuxt-link-active,

@@ -7,7 +7,7 @@
 			<NuxtLink to="/page1/child" exact-active-class="nuxt-link-exact-active">child-page</NuxtLink>
 		</li>
 		<li>
-			<NuxtLink to="/page1/123456" exact-active-class="nuxt-link-exact-active">id-page</NuxtLink>
+			<NuxtLink to="/page1/12" exact-active-class="nuxt-link-exact-active">id-page</NuxtLink>
 		</li>
 	</ul>
 	<NuxtPage />
