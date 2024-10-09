@@ -1,5 +1,6 @@
 <template>
-	<header class="size-full">
+	<header
+		class="w-full h-[var(--header-height)] bg-background/75 backdrop-blur border-b border-gray-200 dark:border-gray-800 -mb-px sticky top-0 z-50 lg:mb-0">
 		<div class="mx-auto max-w-7xl h-full px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-3">
 			<NuxtLink to="/" class="flex gap-1 items-center">
 				<Logo class="text-5xl !mb-0 text-[var(--theme-color-primary)]" />
@@ -21,10 +22,10 @@
 					<NuxtLink to="/page4" active-class="nuxt-link-active">page4</NuxtLink>
 				</li>
 			</ul>
-			<div class="flex gap-1 items-center">
-				<NuxtLink to="https://github.com/jyoketsu/nuxt-template" target="_blank" class="flex gap-1 items-center">
-					<GithubLogo class="text-xl !mb-0" />
-				</NuxtLink>
+			<div class="flex gap-3 items-center">
+				<DarkButton />
+				<UButton icon="i-simple-icons:github" color="gray" variant="ghost" aria-label="Theme"
+					to="https://github.com/jyoketsu/nuxt-template" target="_blank" />
 			</div>
 		</div>
 	</header>
@@ -32,7 +33,6 @@
 <script setup lang="ts">
 // Vue components in the components/ directory are auto-imported and can be used directly in your templates.
 import Logo from '~/public/icon-green.svg'
-import GithubLogo from '~/public/github-mark.svg'
 </script>
 <style>
 a.nuxt-link-active,

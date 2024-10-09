@@ -1,21 +1,16 @@
 <template>
   <NuxtLayout name="home">
-    <template #header>
-      <nav-head />
-    </template>
-    <template #footer>
-      <foot />
-    </template>
     <NuxtPage />
   </NuxtLayout>
 </template>
 
 <script setup lang="ts">
-useHead({
+useSeoMeta({
   titleTemplate: '%s Nuxt Template',
-  meta: [
-    { name: 'description', content: 'My amazing site.' }
-  ],
+  description: 'My amazing site.',
+  ogImage: 'https://nuxt.com/new-social.jpg',
+  twitterImage: 'https://nuxt.com/new-social.jpg',
+  twitterCard: 'summary_large_image'
 })
 
 </script>
