@@ -6,7 +6,7 @@
 			<NuxtLink to="/page1" active-class="nuxt-link-active">Page1</NuxtLink>
 		</li>
 		<li>
-			<NuxtLink to="/page2" active-class="nuxt-link-active">Page2</NuxtLink>
+			<NuxtLink to="/docs/introduction" active-class="nuxt-link-active">Docs</NuxtLink>
 		</li>
 		<li>
 			<NuxtLink to="/page3" active-class="nuxt-link-active">Page3</NuxtLink>
