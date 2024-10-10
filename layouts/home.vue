@@ -7,5 +7,6 @@
 			</div>
 		</main>
 		<AppFooter />
+		<MobileNav />
 	</div>
 </template>
