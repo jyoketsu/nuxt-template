@@ -1,9 +1,7 @@
 <template>
-	<div>page1/{{ id }}</div>
-	<pre>{{ data }}</pre>
+	<div class="text-gray-500 dark:text-gray-400 text-sm p-4">page1/{{ id }}</div>
 </template>
 <script setup lang="ts">
 const route = useRoute()
 const { id } = route.params
-const { data } = await useFetch('/api/hello')
 </script>

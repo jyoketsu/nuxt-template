@@ -10,16 +10,16 @@
 				<li>
 					<!-- active-class：控制当前路由和子路由时的激活状态。 -->
 					<!-- exact-active-class：控制只有当前路由匹配时才应用激活状态。 -->
-					<NuxtLink to="/page1" active-class="nuxt-link-active">page1</NuxtLink>
+					<NuxtLink to="/page1" active-class="nuxt-link-active">Page1</NuxtLink>
 				</li>
 				<li>
-					<NuxtLink to="/page2" active-class="nuxt-link-active">page2</NuxtLink>
+					<NuxtLink to="/page2" active-class="nuxt-link-active">Page2</NuxtLink>
 				</li>
 				<li>
-					<NuxtLink to="/page3" active-class="nuxt-link-active">page3</NuxtLink>
+					<NuxtLink to="/page3" active-class="nuxt-link-active">Page3</NuxtLink>
 				</li>
 				<li>
-					<NuxtLink to="/page4" active-class="nuxt-link-active">page4</NuxtLink>
+					<NuxtLink to="/page4" active-class="nuxt-link-active">Page4 (Need Login)</NuxtLink>
 				</li>
 			</ul>
 			<div class="flex gap-3 items-center">
@@ -32,6 +32,7 @@
 </template>
 <script setup lang="ts">
 // Vue components in the components/ directory are auto-imported and can be used directly in your templates.
+// @ts-ignore
 import Logo from '~/assets/svg/icon-green.svg'
 </script>
 <style>
