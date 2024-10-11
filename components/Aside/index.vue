@@ -1,7 +1,6 @@
 <template>
-	<div>docs nav</div>
+	<AsideTree :links="navigation[0].children" :level="0" />
 </template>
 <script setup lang="ts">
 const { navigation } = useContent();
-console.log('---navigation---', navigation.value);
 </script>

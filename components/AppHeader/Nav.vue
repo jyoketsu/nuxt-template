@@ -6,7 +6,7 @@
 			<NuxtLink to="/page1" active-class="nuxt-link-active">Page1</NuxtLink>
 		</li>
 		<li>
-			<NuxtLink to="/docs/introduction" active-class="nuxt-link-active">Docs</NuxtLink>
+			<NuxtLink to="/docs" active-class="nuxt-link-active">Docs</NuxtLink>
 		</li>
 		<li>
 			<NuxtLink to="/page3" active-class="nuxt-link-active">Page3</NuxtLink>
@@ -16,9 +16,3 @@
 		</li>
 	</ul>
 </template>
-<style>
-a.nuxt-link-active,
-a.nuxt-link-exact-active {
-	color: var(--theme-color-primary)
-}
-</style>

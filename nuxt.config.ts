@@ -2,7 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-  modules: ["nuxt-svgo", "@nuxt/content", "@nuxt/ui"],
+  modules: [
+    "nuxt-svgo",
+    "@nuxt/content",
+    "@nuxt/ui",
+    "@nuxt/image",
+  ],
   content: {
     documentDriven: true,
     highlight: {
@@ -23,6 +28,9 @@ export default defineNuxtConfig({
         "bash",
         "ini",
       ],
+    },
+    navigation: {
+      fields: ["icon"],
     },
   },
 });

@@ -1,0 +1,25 @@
+a.nuxt-link-active,
+a.nuxt-link-exact-active {
+  color: var(--theme-color-primary) !important;
+}
+
+a.nuxt-link-active:hover,
+a.nuxt-link-exact-active:hover {
+  color: var(--theme-color-primary) !important;
+}
+
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  scroll-margin-top: var(--header-height);
+}
+.prose h2 > a,
+.prose h3 > a,
+.prose h4 > a,
+.prose h5 > a,
+.prose h6 > a {
+  font-weight: bold;
+  text-decoration: none;
+}

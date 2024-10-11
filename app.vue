@@ -17,4 +17,5 @@ useSeoMeta({
 </script>
 <style>
 @import url("./assets/styles/css-vars.css");
+@import url("./assets/styles/custom.css");
 </style>
