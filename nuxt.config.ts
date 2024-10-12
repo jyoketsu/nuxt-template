@@ -26,7 +26,7 @@ export default defineNuxtConfig({
       },
     ],
     defaultLocale: "en",
-    strategy: "no_prefix", // 不在 URL 中使用前缀
+    // strategy: "no_prefix", // 不在 URL 中使用前缀
     langDir: "assets/locales/",
   },
   content: {

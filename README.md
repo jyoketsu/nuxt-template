@@ -1,5 +1,7 @@
 # Nuxt Template
 
+ [Online Preview](https://nuxt-template-beta.vercel.app/).
+
 ## Features
 
 - Free and [open source](https://github.com/jyoketsu/nuxt-template).
