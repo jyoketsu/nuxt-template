@@ -1,6 +1,6 @@
 <template>
 	<header
-		class="w-full h-[var(--header-height)] bg-background/75 backdrop-blur border-b border-gray-200 dark:border-gray-800 -mb-px sticky top-0 z-50 lg:mb-0">
+		class="w-full h-[var(--header-height)] bg-background/75 border-b border-gray-200 dark:border-gray-800 -mb-px sticky top-0 z-50 lg:mb-0 backdrop-blur-lg">
 		<div class="mx-auto max-w-7xl h-full px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-3">
 			<NuxtLink to="/" class="flex gap-1 items-center">
 				<Logo class="text-5xl !mb-0 text-[var(--theme-color-primary)]" />

@@ -8,7 +8,8 @@
     "login": "Login"
   },
   "home": {
-    "page": "This is home"
+    "page": "This is home",
+    "news": "Here is some news"
   },
   "page1": {
     "nav": {
