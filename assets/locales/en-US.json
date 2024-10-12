@@ -1,0 +1,20 @@
+{
+  "pages": {
+    "title": "Nuxt Template",
+    "page1": "Page1",
+    "docs": "Docs",
+    "page3": "Page3",
+    "page4": "Page4(Need login)",
+    "login": "Login"
+  },
+  "home": {
+    "page": "This is home"
+  },
+  "page1": {
+    "nav": {
+      "index": "Page1",
+      "childPage": "Child Page",
+      "keyedPage": "Keyed Page"
+    }
+  }
+}

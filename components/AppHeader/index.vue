@@ -8,6 +8,7 @@
 			</NuxtLink>
 			<AppHeaderNav class="hidden lg:flex items-center gap-x-8" />
 			<div class="flex gap-3 items-center">
+				<AppHeaderSwitchLocale />
 				<AppHeaderDarkModeToggle />
 				<UButton icon="i-simple-icons:github" color="gray" variant="ghost" aria-label="Theme"
 					to="https://github.com/jyoketsu/nuxt-template" target="_blank" />
