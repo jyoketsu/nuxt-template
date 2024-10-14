@@ -1,8 +1,7 @@
 <template>
 	<div class="relative">
 		<UDropdown :items="items" :popper="{ offsetDistance: -40, placement: 'bottom-start' }">
-			<UButton color="gray" variant="ghost" icon="i-lucide:languages"
-				trailing-icon="i-heroicons-chevron-down-20-solid" />
+			<UButton color="gray" variant="ghost" icon="i-lucide:languages" />
 		</UDropdown>
 	</div>
 </template>

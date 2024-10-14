@@ -1,11 +1,11 @@
 a.nuxt-link-active,
 a.nuxt-link-exact-active {
-  color: var(--theme-color-primary) !important;
+  color: rgb(var(--color-primary-DEFAULT)/1) !important;
 }
 
 a.nuxt-link-active:hover,
 a.nuxt-link-exact-active:hover {
-  color: var(--theme-color-primary) !important;
+  color: rgb(var(--color-primary-DEFAULT)/1) !important;
 }
 
 .prose h2,

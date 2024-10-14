@@ -4,7 +4,7 @@ const bannerIsOpen = useState<boolean>('bannerIsOpen', () => true)
 
 <template>
 	<div v-if="bannerIsOpen"
-		class="w-full h-12 bg-[var(--theme-color-primary)] text-white flex items-center space-x-2 px-3">
+		class="w-full h-12 bg-primary-500 text-white flex items-center space-x-2 px-3">
 		<div class="flex-1" />
 		<UIcon name="i-heroicons:rocket-launch" class="w-5 h-5" />
 		<span>{{ $t("home.news") }}</span>

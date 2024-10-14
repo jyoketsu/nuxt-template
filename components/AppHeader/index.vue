@@ -3,11 +3,12 @@
 		class="w-full h-[var(--header-height)] bg-background/75 border-b border-gray-200 dark:border-gray-800 -mb-px sticky top-0 z-50 lg:mb-0 backdrop-blur-lg">
 		<div class="mx-auto max-w-7xl h-full px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-3">
 			<NuxtLink to="/" class="flex gap-1 items-center">
-				<Logo class="text-5xl !mb-0 text-[var(--theme-color-primary)]" />
-				<span class="font-bold text-xl">Nuxt Template</span>
+				<Logo class="text-5xl !mb-0 text-primary-500" />
+				<span class="font-bold text-xl hidden lg:block">Nuxt Template</span>
 			</NuxtLink>
 			<AppHeaderNav class="hidden lg:flex items-center gap-x-8" />
-			<div class="flex gap-3 items-center">
+			<div class="flex gap-0 lg:gap-3 items-center">
+				<AppHeaderSwitchTheme />
 				<AppHeaderSwitchLocale />
 				<AppHeaderDarkModeToggle />
 				<UButton icon="i-simple-icons:github" color="gray" variant="ghost" aria-label="Theme"
