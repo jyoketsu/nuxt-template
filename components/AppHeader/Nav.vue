@@ -7,6 +7,9 @@ const localePath = useLocalePath()
 		<li>
 			<!-- active-class：控制当前路由和子路由时的激活状态。 -->
 			<!-- exact-active-class：控制只有当前路由匹配时才应用激活状态。 -->
+			<NuxtLink :to="localePath('/')" exact-active-class="nuxt-link-active">{{ $t('pages.home') }}</NuxtLink>
+		</li>
+		<li>
 			<NuxtLink :to="localePath('/page1')" active-class="nuxt-link-active">{{ $t('pages.page1') }}</NuxtLink>
 		</li>
 		<li>

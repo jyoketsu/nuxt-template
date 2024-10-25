@@ -1,6 +1,7 @@
 {
   "pages": {
     "title": "Nuxt Template",
+    "home": "Home",
     "page1": "Page1",
     "docs": "Docs",
     "page3": "Page3",
