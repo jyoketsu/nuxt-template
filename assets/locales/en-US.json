@@ -16,7 +16,15 @@
     "nav": {
       "index": "Page1",
       "childPage": "Child Page",
-      "keyedPage": "Keyed Page"
+      "keyedPage": "Keyed Page",
+      "amap": "AMap"
+    },
+    "amap": {
+      "picker": "Amap Picker",
+      "amapPlatform": "Amap Platform",
+      "address0": "Lan yue wan",
+      "address1": "Wujin",
+      "address2": "Gundam Base"
     }
   }
 }

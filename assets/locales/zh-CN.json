@@ -16,7 +16,15 @@
     "nav": {
       "index": "页面1index",
       "childPage": "子页面",
-      "keyedPage": "路由参数"
+      "keyedPage": "路由参数",
+      "amap": "高德地图"
+    },
+    "amap": {
+      "picker": "坐标拾取器",
+      "amapPlatform": "高德开放平台",
+      "address0": "揽月湾",
+      "address1": "武进区",
+      "address2": "高达基地"
     }
   }
 }

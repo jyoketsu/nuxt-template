@@ -9,6 +9,13 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/i18n",
   ],
+  runtimeConfig: {
+    secretKey: process.env.SECRET_KEY, // 仅服务器端可用
+    public: {
+      amapKey: process.env.AMAP_KEY, // 客户端和服务器端都可用
+      amapSecurityJsCode: process.env.AMAP_SECURITY_CODE,
+    },
+  },
   i18n: {
     baseUrl: "https://nuxt-template-beta.vercel.app",
     locales: [
