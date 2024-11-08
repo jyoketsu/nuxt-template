@@ -1,6 +1,6 @@
 <template>
-	<div class="w-full min-h-screen">
-		<div class="w-full">
+	<div class="relative w-full min-h-screen">
+		<div class="relative w-full">
 			<slot name="news" />
 		</div>
 		<AppHeader />
@@ -10,7 +10,7 @@
 			</div>
 		</main>
 		<AppFooter />
-		<MobileNav />
+		<AppHeaderMobile />
 		<ScrollToTop />
 	</div>
 </template>

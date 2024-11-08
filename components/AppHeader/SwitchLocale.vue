@@ -1,6 +1,6 @@
 <template>
 	<div class="relative">
-		<UDropdown :items="items" :popper="{ offsetDistance: -40, placement: 'bottom-start' }">
+		<UDropdown :items="items" :popper="{ placement: 'bottom-start' }">
 			<UButton color="gray" variant="ghost" icon="i-lucide:languages" />
 		</UDropdown>
 	</div>

@@ -1,12 +1,5 @@
-<template>
-	<div class="relative">
-		<UDropdown :items="items" :popper="{ offsetDistance: -40, placement: 'bottom-start' }">
-			<UButton color="gray" variant="ghost" icon="i-lucide:paintbrush" />
-		</UDropdown>
-	</div>
-</template>
-
 <script setup lang="ts">
+const bannerIsOpen = useState<boolean>('bannerIsOpen')
 const { theme, setTheme } = useThemes()
 const items = [
 	[{
@@ -16,3 +9,11 @@ const items = [
 ]
 setTheme(theme.value)
 </script>
+
+<template>
+	<div class="relative">
+		<UDropdown :items="items" :popper="{ placement: 'bottom-start' }">
+			<UButton color="gray" variant="ghost" icon="i-lucide:paintbrush" />
+		</UDropdown>
+	</div>
+</template>
