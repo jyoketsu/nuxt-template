@@ -9,8 +9,17 @@
     "login": "Login"
   },
   "home": {
-    "page": "This is home",
-    "news": "Here is some news"
+    "news": "Here is some news",
+    "description": "A free and open-source Nuxt.js project starter template with essential features for modern web development. \nIncludes mobile and dark mode support, multilingual setup, and Nuxt Content for easy documentation creation.",
+    "techStack": "Tech Stack",
+    "nuxt": "Nuxt is an open source framework that makes web development intuitive and powerful.Create performant and production-grade full-stack web apps and websites with confidence.",
+    "nuxtUi": "Nuxt UI is a module that provides a set of Vue components and composables built with Tailwind CSS and Headless UI to help you build beautiful and accessible user interfaces.",
+    "nuxtContent": "Nuxt Content reads the content/ directory in your project, parses .md, .yml, .csv and .json files to create a powerful data layer for your application.",
+    "vue": "An approachable, performant and versatile framework for building web user interfaces.",
+    "ts": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
+    "tailwindcss": "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
+    "i18n": "Vue I18n is internationalization plugin for Vue.js.",
+    "pinia": "The Vue Store that you will enjoy using"
   },
   "page1": {
     "nav": {
