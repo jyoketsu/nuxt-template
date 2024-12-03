@@ -61,4 +61,21 @@ export default defineNuxtConfig({
       fields: ["icon"],
     },
   },
+  app: {
+    head: {
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://at.alicdn.com/t/c/font_3639604_1hhggv3yjay.css",
+        },
+      ],
+      script: [
+        {
+          src: "https://at.alicdn.com/t/c/font_3639604_s7ofq7zhbm9.js",
+          async: true,
+          defer: true,
+        },
+      ],
+    },
+  },
 });
