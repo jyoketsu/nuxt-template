@@ -1,6 +1,5 @@
 <template>
-	<div class="text-gray-500 dark:text-gray-400 text-sm p-4">page1/index</div>
-	<div class="grid gap-3 lg:grid-cols-2">
+	<div class="grid gap-5 lg:grid-cols-2">
 		<UCard>
 			<template #header>
 				<p class="text-2xl">Use State</p>

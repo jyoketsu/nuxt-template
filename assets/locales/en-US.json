@@ -2,7 +2,7 @@
   "pages": {
     "title": "Nuxt Template",
     "home": "Home",
-    "page1": "Page1",
+    "page1": "Examples",
     "docs": "Docs",
     "page3": "Page3",
     "page4": "Page4(Need login)",
@@ -23,17 +23,17 @@
   },
   "page1": {
     "nav": {
-      "index": "Page1",
-      "childPage": "Child Page",
-      "keyedPage": "Keyed Page",
+      "index": "Features",
+      "childPage": "Child page",
+      "keyedPage": "Keyed page",
       "amap": "AMap"
     },
     "amap": {
-      "picker": "Amap Picker",
-      "amapPlatform": "Amap Platform",
+      "picker": "Amap picker",
+      "amapPlatform": "Amap platform",
       "address0": "Lan yue wan",
       "address1": "Wujin",
-      "address2": "Gundam Base"
+      "address2": "Gundam base"
     }
   }
 }

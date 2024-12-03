@@ -11,6 +11,7 @@ export const getNavs: () => Nav[] = () => {
       path: "/",
       exactActive: true,
     },
+    { title: "pages.docs", path: "/docs" },
     {
       title: "pages.page1",
       path: "/page1",
@@ -21,7 +22,6 @@ export const getNavs: () => Nav[] = () => {
         { title: "page1.nav.amap", path: "/page1/amap" },
       ],
     },
-    { title: "pages.docs", path: "/docs" },
     { title: "pages.page3", path: "/page3" },
     { title: "pages.page4", path: "/page4" },
   ];

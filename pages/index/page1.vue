@@ -5,5 +5,6 @@ definePageMeta({
 </script>
 
 <template>
+	<Breadcrumb />
 	<NuxtPage />
 </template>

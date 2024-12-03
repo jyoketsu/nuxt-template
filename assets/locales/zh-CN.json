@@ -2,7 +2,7 @@
   "pages": {
     "title": "Nuxt Template",
     "home": "首页",
-    "page1": "页面1",
+    "page1": "示例",
     "docs": "文档",
     "page3": "页面3",
     "page4": "页面4(需登录)",
@@ -23,7 +23,7 @@
   },
   "page1": {
     "nav": {
-      "index": "页面1index",
+      "index": "特性",
       "childPage": "子页面",
       "keyedPage": "路由参数",
       "amap": "高德地图"

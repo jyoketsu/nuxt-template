@@ -1,3 +1,7 @@
 <template>
-	<div class="text-gray-500 dark:text-gray-400 text-sm p-4">page1/child/</div>
+	<div class="py-40 text-center">
+		<h1 class="font-bold text-5xl lg:text-7xl">
+			{{ $t('page1.nav.childPage') }}
+		</h1>
+	</div>
 </template>
