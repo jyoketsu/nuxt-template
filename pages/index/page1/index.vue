@@ -79,6 +79,14 @@ const logout = () => {
 
 		<UCard>
 			<template #header>
+				<NuxtLink :to="localePath('/docs')" class="text-xl text-primary">Nuxt Content</NuxtLink>
+			</template>
+			<p class="text-gray-600 dark:text-gray-300">/pages/index/docs/[...slug].vue</p>
+			<p class="text-gray-600 dark:text-gray-300">/content</p>
+		</UCard>
+
+		<UCard>
+			<template #header>
 				<p class="text-xl">{{ $t('page1.setTheme') }}</p>
 			</template>
 			<AppHeaderSwitchTheme />
