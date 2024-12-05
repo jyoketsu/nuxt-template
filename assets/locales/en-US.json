@@ -8,6 +8,11 @@
     "page4": "Page4(Need login)",
     "login": "Login"
   },
+  "login": {
+    "namePlaceholder": "Please enter your username",
+    "logout": "Logout",
+    "logined": "Logged in: {name}"
+  },
   "home": {
     "news": "Here is some news",
     "description": "A free and open-source Nuxt.js project starter template with essential features for modern web development. \nIncludes mobile and dark mode support, multilingual setup, and Nuxt Content for easy documentation creation.",
@@ -28,6 +33,9 @@
       "keyedPage": "Keyed page",
       "amap": "AMap"
     },
+    "setTheme": "Set Theme",
+    "toggleLocale": "Toggle Locale",
+    "darkMode": "Dark Mode",
     "amap": {
       "picker": "Amap picker",
       "amapPlatform": "Amap platform",

@@ -8,12 +8,17 @@
     "page4": "页面4(需登录)",
     "login": "登录"
   },
+  "login": {
+    "namePlaceholder": "请输入用户名",
+    "logout": "登出",
+    "logined": "已登录: {name}"
+  },
   "home": {
     "news": "这里是置顶文字",
     "description": "Nuxt Template: 一个免费开源的Nuxt.js项目启动模板，具备现代化开发所需的基础功能。\n支持移动端和暗黑模式，多语言设置，并集成Nuxt Content以便于文档创建。",
     "techStack": "技术栈",
     "nuxt": "Nuxt.js是一个基于Vue.js的应用框架，可用来创建服务端渲染(SSR)应用，也可充当静态站点引擎生成静态站点应用，具有优雅的代码结构分层和热加载等特性。",
-    "nuxtUi":"Nuxt UI 是一个模块，它提供了一组使用 Tailwind CSS 和 Headless UI 构建的 Vue 组件和组合式 API，帮助您构建美观且可访问的用户界面。",
+    "nuxtUi": "Nuxt UI 是一个模块，它提供了一组使用 Tailwind CSS 和 Headless UI 构建的 Vue 组件和组合式 API，帮助您构建美观且可访问的用户界面。",
     "nuxtContent": "Nuxt Content会读取你项目中的 content/ 目录，并解析 .md 、 .yml 、 .csv 和 .json 文件，为你的应用创建基于文件的内容管理系统。 使用内置组件渲染你的内容。",
     "vue": "Vue是一款用于构建用户界面的 JavaScript 框架。它基于标准 HTML、CSS 和 JavaScript 构建，并提供了一套声明式的、组件化的编程模型。",
     "ts": "TypeScript是由微软进行开发和维护的一种开源的编程语言。TypeScript是JavaScript的严格语法超集，提供了可选的静态类型检查。",
@@ -28,6 +33,9 @@
       "keyedPage": "路由参数",
       "amap": "高德地图"
     },
+    "setTheme": "设置主题",
+    "toggleLocale": "切换语言",
+    "darkMode": "暗黑模式",
     "amap": {
       "picker": "坐标拾取器",
       "amapPlatform": "高德开放平台",
