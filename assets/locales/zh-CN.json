@@ -28,14 +28,17 @@
   },
   "page1": {
     "nav": {
-      "index": "特性",
+      "index": "小功能",
       "childPage": "子页面",
       "keyedPage": "路由参数",
+      "anchor": "锚点",
       "amap": "高德地图"
     },
     "setTheme": "设置主题",
     "toggleLocale": "切换语言",
     "darkMode": "暗黑模式",
+    "breadcrumb": "面包屑",
+    "scrollToTop": "回到顶部",
     "amap": {
       "picker": "坐标拾取器",
       "amapPlatform": "高德开放平台",

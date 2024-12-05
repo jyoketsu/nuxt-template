@@ -31,11 +31,14 @@
       "index": "Features",
       "childPage": "Child page",
       "keyedPage": "Keyed page",
+      "anchor": "Anchor",
       "amap": "AMap"
     },
     "setTheme": "Set Theme",
     "toggleLocale": "Toggle Locale",
     "darkMode": "Dark Mode",
+    "breadcrumb": "Breadcrumb",
+    "scrollToTop": "Scroll to top",
     "amap": {
       "picker": "Amap picker",
       "amapPlatform": "Amap platform",

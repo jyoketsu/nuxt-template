@@ -87,6 +87,13 @@ const logout = () => {
 
 		<UCard>
 			<template #header>
+				<p class="text-xl">{{ $t('page1.breadcrumb') }}</p>
+			</template>
+			<Breadcrumb />
+		</UCard>
+
+		<UCard>
+			<template #header>
 				<p class="text-xl">{{ $t('page1.setTheme') }}</p>
 			</template>
 			<AppHeaderSwitchTheme />
@@ -140,6 +147,13 @@ const logout = () => {
 				<IconFontClass class="text-[40px] text-primary hover:text-primary-400" className="file-text" />
 			</UCard>
 		</div>
+
+		<UCard>
+			<template #header>
+				<p class="text-xl">{{ $t('page1.scrollToTop') }}</p>
+			</template>
+			<ScrollToTop class="relative top-0 left-0" />
+		</UCard>
 	</div>
 
 </template>
