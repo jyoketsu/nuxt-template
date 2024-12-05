@@ -9,6 +9,11 @@ const localePath = useLocalePath()
 
 const user = useCookie<{ name: string }>('user')
 
+const commonStore = useCommonStore();
+
+const { isOpen } = storeToRefs(commonStore);
+const { toggleOpen } = commonStore;
+
 const logout = () => {
 	// @ts-ignore
 	user.value = null
@@ -147,6 +152,16 @@ const logout = () => {
 				<IconFontClass class="text-[40px] text-primary hover:text-primary-400" className="file-text" />
 			</UCard>
 		</div>
+
+		<UCard>
+			<template #header>
+				<p class="text-xl">Pinia</p>
+			</template>
+			<div class="space-y-3">
+				<p class="text-gray-600 dark:text-gray-300">{{ `common.isOpen: ${isOpen}` }}</p>
+				<UButton @click="toggleOpen()">Toggle</UButton>
+			</div>
+		</UCard>
 
 		<UCard>
 			<template #header>

@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxt/image",
     "@nuxtjs/i18n",
+    "@pinia/nuxt",
   ],
   runtimeConfig: {
     secretKey: process.env.SECRET_KEY, // 仅服务器端可用

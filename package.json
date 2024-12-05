@@ -14,9 +14,11 @@
     "@nuxt/image": "^1.8.1",
     "@nuxt/ui": "^2.18.7",
     "@nuxtjs/i18n": "^8.5.5",
+    "@pinia/nuxt": "^0.9.0",
     "nuxt": "^3.13.0",
     "nuxt-svgo": "^4.0.6",
     "nuxt-template": "file:",
+    "pinia": "^2.3.0",
     "vue": "latest",
     "vue-router": "latest"
   },
