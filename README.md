@@ -14,7 +14,7 @@
 
 ## Development Tech Stack
 
-- [Nuxt](https://content.nuxt.com/): The file-based CMS for your Nuxt application, powered by Markdown and Vue components.
+- [Nuxt](https://nuxt.com/): The file-based CMS for your Nuxt application, powered by Markdown and Vue components.
 - [Tailwindcss](https://tailwindcss.com/): A utility-first CSS framework for rapid UI development.
 - [Nuxt UI](https://ui.nuxt.com/): A UI Library for Modern Web Apps, powered by Vue & Tailwind CSS.
 - [Nuxt Content](https://content.nuxt.com/): The file-based CMS for your Nuxt application, powered by Markdown and Vue components.

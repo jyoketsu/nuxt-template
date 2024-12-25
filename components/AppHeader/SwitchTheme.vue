@@ -4,8 +4,8 @@ const { theme, setTheme } = useThemes()
 const items = [
 	[{
 		label: 'Green',
-		click: () => setTheme('emerald')
-	}], [{ label: 'Red', click: () => setTheme('rose') }], [{ label: 'Blue', click: () => setTheme('cyan') }]
+		click: () => setTheme('custom-green')
+	}], [{ label: 'Red', click: () => setTheme('custom-red') }], [{ label: 'Blue', click: () => setTheme('custom-blue') }]
 ]
 setTheme(theme.value)
 </script>

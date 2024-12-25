@@ -50,21 +50,21 @@ const logout = () => {
 			<template #header>
 				<p class="text-xl">Meta Tags</p>
 			</template>
-			<p class="text-gray-600 dark:text-gray-300">/app.vue</p>
+			<p class="text-custom-gray dark:text-gray-300">/app.vue</p>
 		</UCard>
 
 		<UCard>
 			<template #header>
 				<p class="text-xl">Layouts</p>
 			</template>
-			<p class="text-gray-600 dark:text-gray-300">/layouts</p>
+			<p class="text-custom-gray dark:text-gray-300">/layouts</p>
 		</UCard>
 
 		<UCard>
 			<template #header>
 				<p class="text-xl">Middleware</p>
 			</template>
-			<p class="text-gray-600 dark:text-gray-300">/middleware</p>
+			<p class="text-custom-gray dark:text-gray-300">/middleware</p>
 		</UCard>
 
 		<UCard>
@@ -72,7 +72,7 @@ const logout = () => {
 				<p class="text-xl">{{ `useCookie (${$t('pages.login')} / ${$t('login.logout')})` }}</p>
 			</template>
 			<div class="flex items-center gap-2">
-				<p v-if="user" class="text-gray-600 dark:text-gray-300">{{ user.name }}</p>
+				<p v-if="user" class="text-custom-gray dark:text-gray-300">{{ user.name }}</p>
 				<UButton v-if="user" @click="logout">
 					{{ $t('login.logout') }}
 				</UButton>
@@ -86,8 +86,8 @@ const logout = () => {
 			<template #header>
 				<NuxtLink :to="localePath('/docs')" class="text-xl text-primary">Nuxt Content</NuxtLink>
 			</template>
-			<p class="text-gray-600 dark:text-gray-300">/pages/index/docs/[...slug].vue</p>
-			<p class="text-gray-600 dark:text-gray-300">/content</p>
+			<p class="text-custom-gray dark:text-gray-300">/pages/index/docs/[...slug].vue</p>
+			<p class="text-custom-gray dark:text-gray-300">/content</p>
 		</UCard>
 
 		<UCard>
@@ -102,6 +102,8 @@ const logout = () => {
 				<p class="text-xl">{{ $t('page1.setTheme') }}</p>
 			</template>
 			<AppHeaderSwitchTheme />
+			<p class="text-custom-gray dark:text-gray-300">/tailwind.config.ts</p>
+			<p class="text-custom-gray dark:text-gray-300">/app.config.ts</p>
 		</UCard>
 
 		<UCard>
@@ -158,7 +160,7 @@ const logout = () => {
 				<p class="text-xl">Pinia</p>
 			</template>
 			<div class="space-y-3">
-				<p class="text-gray-600 dark:text-gray-300">{{ `common.isOpen: ${isOpen}` }}</p>
+				<p class="text-custom-gray dark:text-gray-300">{{ `common.isOpen: ${isOpen}` }}</p>
 				<UButton @click="toggleOpen()">Toggle</UButton>
 			</div>
 		</UCard>
