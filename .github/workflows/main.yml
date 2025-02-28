@@ -35,6 +35,7 @@ jobs:
         run: |
           scp nuxt-template.tar root@47.102.193.24:/home/docker-images/
           scp nuxt-template.conf root@47.102.193.24:/etc/nginx/sites-available/
+          scp docker-compose.yml root@47.102.193.24:/home/projects/nuxt-template/
 
       - name: Deploy on Server
         run: |
