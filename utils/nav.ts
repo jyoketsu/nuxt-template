@@ -20,7 +20,6 @@ export const getNavs: () => Nav[] = () => {
         { title: "page1.nav.childPage", path: "/page1/child" },
         { title: "page1.nav.keyedPage", path: "/page1/12" },
         { title: "page1.nav.anchor", path: "/page1/anchor" },
-        { title: "page1.nav.amap", path: "/page1/amap" },
       ],
     },
     { title: "pages.page3", path: "/page3" },
